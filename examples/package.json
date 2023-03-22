@@ -1,0 +1,16 @@
+{
+  "name": "use_package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "roman-simple-math": "^1.0.1"
+  }
+}
