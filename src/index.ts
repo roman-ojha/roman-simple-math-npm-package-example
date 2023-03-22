@@ -27,6 +27,18 @@
       -> 
         -> npm i roman-simple-math
 
+    *) Things to remember:
+      *) Update you package:
+        => when you will make some changes on your package, and want to publish the changes, then you have to increase the version number of your package, or else you will get an error while publishing the package
+          -> or you can ever clear the cache of npm registry using 'npm cache clean --force' command, and then publish the package
+        => if you want to unpublish your package, then you can use 'npm unpublish
+        => if you want to update your package, then you can use 'npm version patch' command, which will increase the version number of your package by 0.0.1
+        => if you want to update your package, then you can use 'npm version minor' command, which will increase the version number of your package by 0.1.0
+
+      => you can publish the package is by using 'npm publish --access public' command as well, which will publish the package without asking for the version number
+
+      => you can't publish the package having same name as of any other package, so you have to change the name of your package before publishing it to npm registry or else you will get an error
+        -> you can change the name of your package inside package.json file
 */
 
 interface MathType {
