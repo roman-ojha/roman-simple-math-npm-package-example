@@ -14,10 +14,13 @@
     "calculation",
     "math"
   ],
-  "author": "roman-ojha",
+  "author": "roman-ojha <razzroman99@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/roman-ojha/roman-simple-math-npm-package-example/issues"
   },
-  "homepage": "https://github.com/roman-ojha/roman-simple-math-npm-package-example#readme"
+  "homepage": "https://github.com/roman-ojha/roman-simple-math-npm-package-example#readme",
+  "devDependencies": {
+    "typescript": "^5.0.2"
+  }
 }
