@@ -1,0 +1,23 @@
+{
+  "name": "roman-simple-math",
+  "version": "1.0.0",
+  "description": "package help to solve simple math calculations like add, sub, multi, div etc..",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/roman-ojha/roman-simple-math-npm-package-example.git"
+  },
+  "keywords": [
+    "calculation",
+    "math"
+  ],
+  "author": "roman-ojha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roman-ojha/roman-simple-math-npm-package-example/issues"
+  },
+  "homepage": "https://github.com/roman-ojha/roman-simple-math-npm-package-example#readme"
+}
