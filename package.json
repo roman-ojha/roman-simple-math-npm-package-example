@@ -2,9 +2,11 @@
   "name": "roman-simple-math",
   "version": "1.0.0",
   "description": "package help to solve simple math calculations like add, sub, multi, div etc..",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -22,5 +24,8 @@
   "homepage": "https://github.com/roman-ojha/roman-simple-math-npm-package-example#readme",
   "devDependencies": {
     "typescript": "^5.0.2"
-  }
+  },
+  "files": [
+    "lib/**/*"
+  ]
 }
